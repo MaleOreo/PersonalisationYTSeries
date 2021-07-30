@@ -1,0 +1,148 @@
+[
+  {
+    "settings": {
+      "openEditInWindow": false,
+      "openEditInWindow.popup": false,
+      "windowPosition": {},
+      "show-badge": true,
+      "disableAll": false,
+      "exposeIframes": false,
+      "newStyleAsUsercss": false,
+      "styleViaXhr": false,
+      "patchCsp": false,
+      "config.autosave": true,
+      "popup.breadcrumbs": true,
+      "popup.breadcrumbs.usePath": false,
+      "popup.enabledFirst": true,
+      "popup.stylesFirst": true,
+      "popup.autoResort": false,
+      "popup.borders": false,
+      "popup.findStylesInline": true,
+      "popup.findSort": "n",
+      "manage.onlyEnabled": false,
+      "manage.onlyLocal": false,
+      "manage.onlyUsercss": false,
+      "manage.onlyEnabled.invert": false,
+      "manage.onlyLocal.invert": false,
+      "manage.onlyUsercss.invert": false,
+      "manage.actions.expanded": true,
+      "manage.backup.expanded": true,
+      "manage.filters.expanded": true,
+      "manage.newUI": true,
+      "manage.newUI.favicons": false,
+      "manage.newUI.faviconsGray": true,
+      "manage.newUI.targets": 3,
+      "manage.newUI.sort": "title,asc",
+      "editor.options": {},
+      "editor.toc.expanded": true,
+      "editor.options.expanded": true,
+      "editor.lint.expanded": true,
+      "editor.lineWrapping": true,
+      "editor.smartIndent": true,
+      "editor.indentWithTabs": false,
+      "editor.tabSize": 4,
+      "editor.keyMap": "sublime",
+      "editor.theme": "default",
+      "editor.beautify": {
+        "selector_separator_newline": true,
+        "newline_before_open_brace": false,
+        "newline_after_open_brace": true,
+        "newline_between_properties": true,
+        "newline_before_close_brace": true,
+        "newline_between_rules": false,
+        "preserve_newlines": true,
+        "end_with_newline": false,
+        "indent_conditional": true
+      },
+      "editor.beautify.hotkey": "",
+      "editor.lintDelay": 300,
+      "editor.linter": "csslint",
+      "editor.lintReportDelay": 500,
+      "editor.matchHighlight": "token",
+      "editor.autoCloseBrackets": true,
+      "editor.autocompleteOnTyping": false,
+      "editor.contextDelete": null,
+      "editor.selectByTokens": true,
+      "editor.appliesToLineWidget": true,
+      "editor.livePreview": true,
+      "editor.colorpicker": true,
+      "editor.colorpicker.hexUppercase": false,
+      "editor.colorpicker.hotkey": "",
+      "editor.colorpicker.color": "",
+      "editor.colorpicker.maxHeight": 300,
+      "hotkey._execute_browser_action": "",
+      "hotkey.openManage": "",
+      "hotkey.styleDisableAll": "",
+      "sync.enabled": "none",
+      "iconset": 0,
+      "badgeDisabled": "#8B0000",
+      "badgeNormal": "#006666",
+      "popupWidth": 246,
+      "updateInterval": 24
+    }
+  },
+  {
+    "enabled": true,
+    "installDate": 1627552845802,
+    "sections": [
+      {
+        "code": "",
+        "start": 298,
+        "domains": [
+          "youtube"
+        ]
+      },
+      {
+        "code": "html:not(#⁠),body>div,body>table,[role=\"navigation\"],[role=\"dialog\"],#body-container>div,[aria-expanded=\"true\"]:not(.ytp-button),[class*=\"tooltip\"]:not(.ytp-tooltip-duration):not(.ytp-tooltip-bg):not(.ytp-tooltip-text-wrapper):not([class*=\"arrow\"]):not(button),[role=\"menu\"],.ytp-popup,.videoAdUiPreSkipButton,.videoAdUiAdInfoPopup\n  {\n    background: url(https://i.gifer.com/mzE.gif)fixed #000!important;\n    background-size: cover!important;\n  }\n/*search bar*/  #masthead-search-terms,form.channels-search:not(#​)\n  {\n    border: 1px solid #FFF!important;\n  }\n\n  #masthead-search-terms.gsfe_a\n  {\n    border: 1px solid #A0A0A0!important;\n  }\n\n  #masthead-search-terms.gsfe_b\n  {\n    border: 1px solid #4D90FE!important;\n  }\n\n  :not(textarea):not(input):not([contenteditable])\n  {\n    text-shadow: 0 0.05em rgba(0,0,0,.5),0 -0.05em rgba(0,0,0,.5),0.05em 0 rgba(0,0,0,.5),-0.05em 0 rgba(0,0,0,.5)!important;\n  }\n\n  :not([class*=\"video-extras-sparkbar\"]):not([class^=\"ytp-\"]):not(.sidebar):not(.video-time):not([class^=\"html5-\"]):not(.yt-uix-button-primary):not(label):not(.toggle):not(.branding-context-container-inner):not(.iv-drawer)\n  {\n    background-color: transparent!important;\n    color: #FFFFFF!important;\n  }\n\n  .load-more-button\n  {\n    background: transparent!important;\n  }\n\n  [role=\"alert\"],.content-region,.yt-uix-checkbox-on-off .checked:before\n  {\n    display: none!important;\n  }\n\n  :not(#​) :link\n  {\n    color: #99CCFF!important;\n  }\n\n  :not(#​) :visited\n  {\n    color: #CC99FF!important;\n  }\n\n  :not(#​) select\n  {\n    background: black!important;\n  }\n\n  [href=\"/\"][id*=\"logo\"],:not(.ytp-volume-slider-handle):not(.yt-uix-playlistlike):before,.yt-uix-button-icon-material-upload,.yt-uix-button-icon-bell,.yt-uix-button-icon-wrapper>.yt-sprite,.autoplay-info-icon,.search-button>.yt-uix-button-content,#appbar-guide-button .yt-uix-button-icon-wrapper,.yt-uix-button-shelf-slider-pager\n  {\n    -webkit-filter: invert(1)hue-rotate(180deg);\n    filter: invert(1)hue-rotate(180deg);\n  }\n\n  .yt-uix-form-input-select,[class$=\"container\"],#yt-comments-paginator\n  {\n    background-image: none!important;\n  }\n\n  :not(h2):not(button):not(.comment-simplebox-renderer-collapsed-content),#footer-container button,.yt-uix-button-shelf-slider-pager\n  {\n    border: none!important;\n  }\n\n  textarea,[contenteditable=\"true\"],[type=\"text\"]:not(#masthead-search-term),[role=\"menu\"]:not(.guide-user-links):not(.ytp-panel-menu),#footer-container .yt-uix-button-default,.yt-uix-clickcard-card-visible,#watch-appbar-playlist,.comment-simplebox-frame,body>table\n  {\n    box-shadow: inset 0px 0px 0px 1px rgba(255,255,255,.5)!important;\n  }\n\n  #masthead-search-terms\n  {\n    box-shadow: none!important;\n  }",
+        "start": 414,
+        "regexps": [
+          "https?://www.youtube.com?/(?!my_videos|ad_companion|subscribe_embed|account|yt|red).*"
+        ]
+      },
+      {
+        "code": "*\n  {\n    background-color: #000!important;\n    color: #fff!important;\n    border-color: #000!important;\n  }",
+        "start": 3177,
+        "regexps": [
+          "https://i.gifer.com/mzE.gif"
+        ]
+      }
+    ],
+    "sourceCode": "/* ==UserStyle==\n@name           MaleOreo Template\n@namespace      USO Archive\n@author         MaleOreo\n@description    `MaleOreo`\n@version        20210728.8.50\n@license        CC0-1.0\n@preprocessor   uso\n==/UserStyle== */\n@-moz-document domain(\"youtube\")\n{\n}\n\n@-moz-document regexp(\"https?://www.youtube.com?/(?!my_videos|ad_companion|subscribe_embed|account|yt|red).*\")\n{\n  html:not(#⁠),body>div,body>table,[role=\"navigation\"],[role=\"dialog\"],#body-container>div,[aria-expanded=\"true\"]:not(.ytp-button),[class*=\"tooltip\"]:not(.ytp-tooltip-duration):not(.ytp-tooltip-bg):not(.ytp-tooltip-text-wrapper):not([class*=\"arrow\"]):not(button),[role=\"menu\"],.ytp-popup,.videoAdUiPreSkipButton,.videoAdUiAdInfoPopup\n  {\n    background: url(https://i.gifer.com/mzE.gif)fixed #000!important;\n    background-size: cover!important;\n  }\n/*search bar*/  #masthead-search-terms,form.channels-search:not(#​)\n  {\n    border: 1px solid #FFF!important;\n  }\n\n  #masthead-search-terms.gsfe_a\n  {\n    border: 1px solid #A0A0A0!important;\n  }\n\n  #masthead-search-terms.gsfe_b\n  {\n    border: 1px solid #4D90FE!important;\n  }\n\n  :not(textarea):not(input):not([contenteditable])\n  {\n    text-shadow: 0 0.05em rgba(0,0,0,.5),0 -0.05em rgba(0,0,0,.5),0.05em 0 rgba(0,0,0,.5),-0.05em 0 rgba(0,0,0,.5)!important;\n  }\n\n  :not([class*=\"video-extras-sparkbar\"]):not([class^=\"ytp-\"]):not(.sidebar):not(.video-time):not([class^=\"html5-\"]):not(.yt-uix-button-primary):not(label):not(.toggle):not(.branding-context-container-inner):not(.iv-drawer)\n  {\n    background-color: transparent!important;\n    color: #FFFFFF!important;\n  }\n\n  .load-more-button\n  {\n    background: transparent!important;\n  }\n\n  [role=\"alert\"],.content-region,.yt-uix-checkbox-on-off .checked:before\n  {\n    display: none!important;\n  }\n\n  :not(#​) :link\n  {\n    color: #99CCFF!important;\n  }\n\n  :not(#​) :visited\n  {\n    color: #CC99FF!important;\n  }\n\n  :not(#​) select\n  {\n    background: black!important;\n  }\n\n  [href=\"/\"][id*=\"logo\"],:not(.ytp-volume-slider-handle):not(.yt-uix-playlistlike):before,.yt-uix-button-icon-material-upload,.yt-uix-button-icon-bell,.yt-uix-button-icon-wrapper>.yt-sprite,.autoplay-info-icon,.search-button>.yt-uix-button-content,#appbar-guide-button .yt-uix-button-icon-wrapper,.yt-uix-button-shelf-slider-pager\n  {\n    -webkit-filter: invert(1)hue-rotate(180deg);\n    filter: invert(1)hue-rotate(180deg);\n  }\n\n  .yt-uix-form-input-select,[class$=\"container\"],#yt-comments-paginator\n  {\n    background-image: none!important;\n  }\n\n  :not(h2):not(button):not(.comment-simplebox-renderer-collapsed-content),#footer-container button,.yt-uix-button-shelf-slider-pager\n  {\n    border: none!important;\n  }\n\n  textarea,[contenteditable=\"true\"],[type=\"text\"]:not(#masthead-search-term),[role=\"menu\"]:not(.guide-user-links):not(.ytp-panel-menu),#footer-container .yt-uix-button-default,.yt-uix-clickcard-card-visible,#watch-appbar-playlist,.comment-simplebox-frame,body>table\n  {\n    box-shadow: inset 0px 0px 0px 1px rgba(255,255,255,.5)!important;\n  }\n\n  #masthead-search-terms\n  {\n    box-shadow: none!important;\n  }\n}\n\n@-moz-document regexp(\"https://i.gifer.com/mzE.gif\")\n{\n  *\n  {\n    background-color: #000!important;\n    color: #fff!important;\n    border-color: #000!important;\n  }\n}",
+    "usercssData": {
+      "name": "MaleOreo",
+      "namespace": "USO Archive",
+      "author": "MaleOreo",
+      "description": "This template will allow you to edit and personalise the look of your YT",
+      "version": "20210728.8.50",
+      "license": "CC0-1.0",
+      "preprocessor": "uso"
+    },
+    "author": "MaleOreo",
+    "description": "This template will allow you to edit and personalise the look of your YT",
+    "name": "MaleOreo",
+    "originalDigest": "9bea213b93ec7bebd91d48d3b5881f476cbc2aac",
+    "_id": "4c5f4871-2dbd-4bc6-8d0b-ff5339ef905c",
+    "_rev": 1627554950288,
+    "id": 3,
+    "updateDate": 1627554950288,
+    "_usw": {
+      "token": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzdHlsZUlEIjo0NjIsInVzZXJJRCI6Mzc2fQ.iR-0th0oygVB0EdI32HMYwnOBJgnfwVMktHIrF5pezPMmO9AQWBG4zD-qtnjsPVy_HP-M4p8864fQizQ_zZqPg",
+      "license": "CC0-1.0",
+      "updated_at": 1627554810899629300,
+      "mirror_url": "",
+      "description": "Swap the background URL for the GIF or Wallpaper of your choice with Stylus on Firefox",
+      "user_id": 376,
+      "username": "maleoreo",
+      "created_at": 1627554810899629300,
+      "homepage": "",
+      "id": 462,
+      "original": "",
+      "preview_url": "",
+      "name": "MaleOreo - Wallpaper Template",
+      "display_name": "",
+      "notes": "",
+      "category": "userstyles"
+    },
+    "customName": "MaleOreo - Template"
+  }
+]
